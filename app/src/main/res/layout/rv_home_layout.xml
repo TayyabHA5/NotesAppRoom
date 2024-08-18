@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="10dp"
+    android:id="@+id/cardLayout"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:padding="12dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tvTitleRv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Title"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:padding="12dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tvDescRv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:text="Description"
+        android:layout_marginBottom="10dp" />
+        <TextView
+            android:padding="12dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tvDateRv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Date"
+            android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+       />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
